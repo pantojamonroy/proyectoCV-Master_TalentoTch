@@ -87,7 +87,7 @@ container {
 
 .btn-dark:hover {
   background: #fff;
-  border: 1px solid #4d4d4d;
+  border: 0.5px solid #4d4d4d;
   color: #4d4d4d;
 }
 
@@ -107,7 +107,7 @@ form .form-control {
   padding: 7px 12px;
   line-height: 1.5;
   background-color: #f8f9fa;
-  border: none;
+  border-color: #8890a1;
   border-radius: 4px;
 }
 
@@ -335,6 +335,14 @@ form .form-control {
   text-align: center;
   padding-bottom: 40px;
   font-weight: 900;
+}
+.contact-form label {
+  padding: 9px;
+}
+.contact-form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
 }
 
 .contact-form button {
