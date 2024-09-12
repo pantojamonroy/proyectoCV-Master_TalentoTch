@@ -1,4 +1,4 @@
-const apiurl = "https://talentotech-59wl.onrender.com";
+const apiurl = "https://proyecto-cv-api.onrender.com";
 
 async function enviarDatosFormulario() {
   const form = document.getElementById("formulario");
