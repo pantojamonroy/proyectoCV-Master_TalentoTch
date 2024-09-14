@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <link rel="stylesheet" href="./css/stylePot.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Curriculum | Portfolio</title>
 </head>
 
@@ -13,7 +16,8 @@
     <header id="mainheader">
         <nav id="navbar" class="nav-home">
             <div class="container">
-                <a href="index.html" class="logo"><img src="imagenes/pantosaurio manzana--.png" alt="" /></a>
+                <a href="index.html" class="logo"><img class="object-fit-scale" src="imagenes/pantosaurio manzana--.png"
+                        alt="" /></a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -23,42 +27,130 @@
             </div>
         </nav>
     </header>
-
-    <div id="portfolio">
+    <section class="proyectos">
         <div class="container">
-            <h2>Portfolio</h2>
-            <!-- <div class="portfolio-row"> -->
-            <div class="portfolio-row-box">
-                <img src="imagenes/Carpinterias  web--.jpg" alt="" />
-                <p>Carpinterías Web</p>
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Portfolio</h2>
+                </div>
             </div>
-            <div class="portfolio-row-box">
-                <img src="imagenes/pag falcon--.jpg" alt="" />
-                <p>Falcon te espera Web</p>
-            </div>
-            <div class="portfolio-row-box">
-                <img src="imagenes/galeria agn--.jpg" alt="" />
-                <p>Galería AGN</p>
-            </div>
-            <!--  </div>
-            <div class="portfolio-row"> -->
-            <div class="portfolio-row-box">
-                <img src="imagenes/GestarSalud--.jpg" alt="" />
-                <p>Revista Gestar Salud</p>
-            </div>
-            <div class="portfolio-row-box">
-                <img src="imagenes/conservacion 3--.jpg" alt="" />
-                <p>Conservación Mar Viva Org</p>
-            </div>
-            <div class="portfolio-row-box">
-                <img src="imagenes/pauta 5--.jpg" alt="" />
-                <p>Vademecúm Edifarm</p>
-                <!-- </div> -->
+            <div class="row">
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/Carpinterias  web--.jpg" alt="Carpinterías Web" />
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Carpinterías Web</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/pag falcon--.jpg" alt="Falcon te espera Web" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Portal Falconteespera.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/galeria agn--.jpg" alt="Galería AGN" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Galería AGN</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/portada bruno--.jpg" alt="Revista Gestar Salud" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Catálogo Artista Bruno García</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/conservacion 2--.jpg"
+                            alt="Conservación Mar Viva Org" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Afiche USAID ONG</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/pauta 5--.jpg" alt="Vademecúm Edifarm" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Portada Aniversario EDIFARM</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/pauta 6--.jpg" alt="Carpinterías Web" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Pauta Sanka Group</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/pauta 7--.jpg" alt="Falcon te espera Web" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Pauta Valagro Andina</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/music Training--.png" alt="Galería AGN" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Workout Music Traning</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/procinal portada--.jpg"
+                            alt="Revista Gestar Salud" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Reglamento Procinal</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/porta pV--.jpg" alt="Conservación Mar Viva Org" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Ediciones Pensar Verde</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div class="card shadow">
+                        <img class="object-fit-scale" src="./imagenes/menu pizza--.jpg" alt="Vademecúm Edifarm" />
+
+                        <div class="card-footer text-center">
+                            <h6 class="text-body-secondary">Menu Pizza Michiss</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <footer id="mainfooter" class="footer-home"> &#169 —pantosaurio— <br>
-        <img src="imagenes/ChillOut acostado--.png" alt="" width="75">
+
+    </section>
+    <footer id="mainfooter" class="footer-home">
+        &#169; —pantosaurio— <br>
+        <img class="object-fit-scale" src="imagenes/ChillOut acostado--.png" alt="Footer Image" width="75">
     </footer>
 </body>
 

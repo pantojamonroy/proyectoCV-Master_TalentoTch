@@ -1,0 +1,57 @@
+/* Aquí puedes agregar el CSS necesario para el portafolio si no está en los archivos externos */
+.proyectos,
+.card-footer {
+  background-color: #b1cac4 !important;
+}
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las imágenes se ajusten a la siguiente línea */
+  justify-content: space-between; /* Espacio entre elementos */
+}
+
+.portfolio-row-box {
+  flex: 1 1 calc(25% - 10px); /* Cada imagen ocupa el 25% del ancho menos un margen */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  margin-bottom: 20px; /* Espacio entre filas */
+  text-align: center; /* Centra el texto debajo de la imagen */
+  position: relative; /* Para posicionar el contenido en el contenedor */
+}
+
+.portfolio-row-box::before {
+  content: "";
+  display: block;
+  padding-top: 75%; /* 4:3 relación de aspecto */
+}
+
+.portfolio-row-box img {
+  position: absolute; /* Posiciona la imagen dentro del contenedor */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.row img {
+  width: 100%;
+}
+.row {
+  columns: 400px;
+}
+
+@media (max-width: 1200px) {
+  .portfolio-row-box {
+    flex: 1 1 calc(33.333% - 10px); /* Ajusta el ancho para pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-row-box {
+    flex: 1 1 calc(50% - 10px); /* Ajusta el ancho para pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-row-box {
+    flex: 1 1 100%; /* Las imágenes ocupan el 100% del ancho en pantallas muy pequeñas */
+  }
+}
