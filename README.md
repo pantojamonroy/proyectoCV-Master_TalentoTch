@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99b0abb4fab8b47fb834b98689795765973c6666
 Realizo este proyecto motivado a las enseñanzas adquiridas en este Bootcamp por parte de mis docentes Ing. Roslay Bautista y el Ing. Marco Fidel Sanabria Rueda. Gracias por sus conocimientos.
 
 Mi Proyecto va enfocado a la presentación de mi Currículum Vitae en posibles medios, los cuales pueda proponer mis habilidades a  futuros clientes como apoyo a mi profesión como Diseñador Gráfico.
