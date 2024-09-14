@@ -14,4 +14,5 @@ async function enviarDatosFormulario() {
   });
   respuesta = await respuesta.json();
   alert(respuesta.message);
+  form.reset();
 }
