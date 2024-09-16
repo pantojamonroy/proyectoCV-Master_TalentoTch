@@ -1,4 +1,6 @@
 /* Aquí puedes agregar el CSS necesario para el portafolio si no está en los archivos externos */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .proyectos,
 .card-footer {
   background-color: #b1cac4 !important;

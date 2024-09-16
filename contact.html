@@ -1,80 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
     <title>Curriculum | Contact</title>
-    <link rel="icon" href="./imagenes/pantosaurio-manzana-.ico">
-</head>
+    <link rel="icon" href="./imagenes/pantosaurio-manzana-.ico" />
+  </head>
 
-<body>
+  <body>
     <header id="mainheader">
-        <nav id="navbar" class="nav-home">
-            <div class="container">
-                <a href="index.html" class="logo"><img src="imagenes/pantosaurio manzana--.png" alt="" /></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a class="current" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav id="navbar" class="nav-home">
+        <div class="container">
+          <a href="index.html" class="logo"
+            ><img src="imagenes/pantosaurio manzana--.png" alt=""
+          /></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <h2>Contact</h2>
     <div id="contact">
-        <div class="container">
-            <div class="contact-form">
-                <h5>Satay in Touch!</h5><br>
-                <form id="formulario" action="">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="name" />
-                    </div>
-                    <div class="form-group">
-                        <label for="lastname">Lastname:</label>
-                        <input name="lastname" type="text" class="form-control" id="lastname" placeholder="lastname" />
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone:</label>
-                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="phone" />
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input name="email" type="email" class="form-control" id="email" placeholder="email" />
-                    </div>
-                    <div class="form-group">
-                        <label for="city">City:</label>
-                        <input name="city" type="city" class="form-control" id="city" placeholder="city" />
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message" cols="30" rows="10" class="form-control"
-                            placeholder="write your message"></textarea>
-                    </div>
-                    <button class="btn btn-dark" type="button" id="save" onclick="enviarDatosFormulario()">Send</button>
-                </form>
-                <script src="script.js"></script>
+      <div class="container">
+        <div class="contact-form">
+          <h5>Satay in Touch!</h5>
+          <br />
+          <form id="formulario" action="">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                name="name"
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="name"
+              />
             </div>
-            <div class="center">
-                <a href="https://twitter.com/pantosaurio/status/1080593566060199937" target="_blank">
-                    <img src="./imagenes/logo_todos/nuevoX.png" alt="" width="75">
-                </a>
-                <a href="https://www.facebook.com/pantosaurio.arte/" target="_blank">
-                    <img src="imagenes/logo_todos/facebook.png" alt="" width="75">
-                </a>
+            <div class="form-group">
+              <label for="lastname">Lastname:</label>
+              <input
+                name="lastname"
+                type="text"
+                class="form-control"
+                id="lastname"
+                placeholder="lastname"
+              />
             </div>
-
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input
+                name="phone"
+                type="phone"
+                class="form-control"
+                id="phone"
+                placeholder="phone"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                name="email"
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="city">City:</label>
+              <input
+                name="city"
+                type="city"
+                class="form-control"
+                id="city"
+                placeholder="city"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                class="form-control"
+                placeholder="write your message"
+              ></textarea>
+            </div>
+            <button
+              class="btn btn-dark"
+              type="button"
+              id="save"
+              onclick="enviarDatosFormulario()"
+            >
+              Send
+            </button>
+          </form>
+          <script src="script.js"></script>
         </div>
+        <div class="center">
+          <a
+            href="https://twitter.com/pantosaurio/status/1080593566060199937"
+            target="_blank"
+          >
+            <img src="./imagenes/logo_todos/nuevoX.png" alt="" width="75" />
+          </a>
+          <a href="https://www.facebook.com/pantosaurio.arte/" target="_blank">
+            <img src="imagenes/logo_todos/facebook.png" alt="" width="75" />
+          </a>
+        </div>
+      </div>
     </div>
 
-    <footer id="mainfooter" class="footer-home"> &#169 —pantosaurio— <br>
-        <img src="imagenes/ChillOut acostado--.png" alt="" width="75">
+    <footer id="mainfooter" class="footer-home">
+      &#169; —pantosaurio— <br />
+
+      <a href="./index.html"
+        ><img src="imagenes/ChillOut acostado--.png" alt="" width="75"
+      /></a>
     </footer>
     <script src="./form.js"></script>
-</body>
-
+  </body>
 </html>
