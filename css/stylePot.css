@@ -5,6 +5,9 @@
 .card-footer {
   background-color: #b1cac4 !important;
 }
+.proyectos h2 {
+  font-weight: 900;
+}
 .portfolio-row {
   display: flex;
   flex-wrap: wrap; /* Permite que las imágenes se ajusten a la siguiente línea */
